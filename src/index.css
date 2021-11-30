@@ -1,13 +1,56 @@
+html {
+  min-height: 100%;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: url('./img/mario-bg.png') no-repeat; */
+  /* background-size: 100%;
+  background-position: bottom;
+  background-color: #95e8f3; */
+  min-height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.form-label {
+  margin-bottom: 0.12rem;
+  font-size: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-brand.active {
+  color: #0dcaf0;
+}
+.container {
+  position: relative;
+}
+.li-nav {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.navbar-dark .navbar-nav .btn-nav {
+  color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+.navbar-dark .navbar-nav .btn-nav.active {
+  color: #fff;
+}
+.navbar-dark .navbar-brand {
+  color: #eee;
 }
